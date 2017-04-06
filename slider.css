@@ -1,12 +1,9 @@
-
-
 .frame {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
   width: 500px;
   height: 370px;
-  background-color: yellow;
   overflow: hidden;
   position: relative;
 }
@@ -15,7 +12,6 @@
   width:  2000px;
   height: 400px;
   left:   -1500px;
-  background-color: red;
   position: relative;
   margin: 0;
   padding: 0;
@@ -29,13 +25,12 @@
 }
 
 .advance-right {
-    right: 40px;
-    display: none;
+  right: 40px;
+  display: none;
 }
 
 .advance-left {
     left: 10px;
-
 }
 
 [class*="advance"] {
